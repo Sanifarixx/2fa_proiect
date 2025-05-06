@@ -12,8 +12,8 @@ app.secret_key = 'secret_key_for_session'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
 db = SQLAlchemy(app)
 
-EMAIL_ADDR = "patrascu.inga@gmail.com" 
-EMAIL_PASSWORD = "qqpy qurh eapo zxbn" 
+EMAIL_ADDR = "" 
+EMAIL_PASSWORD = "" 
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
