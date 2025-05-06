@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Înregistrare</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Register</h2>
+    <form method="post">
+        Username: <input type="text" name="username"><br>
+        E-mail: <input type="email" name="email"><br>
+        Parolă: <input type="password" name="password"><br>
+        <input type="submit" value="Înregistrare">
+    </form>
+</body>
+</html>
